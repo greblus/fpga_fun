@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, /home/greblus/fpga_fun/light/light.v
+source_file = 1, /home/greblus/fpga_fun/light/db/light.cbx.xml
+design_name = light
+instance = comp, \f1~output\, f1~output, light, 1
+instance = comp, \f2~output\, f2~output, light, 1
+instance = comp, \f3~output\, f3~output, light, 1
+instance = comp, \f4~output\, f4~output, light, 1
+instance = comp, \f5~output\, f5~output, light, 1
+instance = comp, \f6~output\, f6~output, light, 1
+instance = comp, \f7~output\, f7~output, light, 1
+instance = comp, \f8~output\, f8~output, light, 1
+instance = comp, \x1~input\, x1~input, light, 1
+instance = comp, \x2~input\, x2~input, light, 1
+instance = comp, \x3~input\, x3~input, light, 1
+instance = comp, \x4~input\, x4~input, light, 1
+instance = comp, \x5~input\, x5~input, light, 1
