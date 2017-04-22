@@ -1,0 +1,5 @@
+|stupid
+x1 => o.DATAIN
+o <= x1.DB_MAX_OUTPUT_PORT_TYPE
+
+

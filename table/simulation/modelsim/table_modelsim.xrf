@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, /home/greblus/fpga_fun/table/table.v
+source_file = 1, /home/greblus/fpga_fun/table/db/table.cbx.xml
+design_name = \table_\
+instance = comp, \o~output\, o~output, \table_\, 1
+instance = comp, \x1~input\, x1~input, \table_\, 1
+instance = comp, \x2~input\, x2~input, \table_\, 1
+instance = comp, \comb~0\, comb~0, \table_\, 1

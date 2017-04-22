@@ -1,0 +1,6 @@
+vendor_name = ModelSim
+source_file = 1, /home/greblus/fpga_fun/stupid/stupid.v
+source_file = 1, /home/greblus/fpga_fun/stupid/db/stupid.cbx.xml
+design_name = stupid
+instance = comp, \o~output\, o~output, stupid, 1
+instance = comp, \x1~input\, x1~input, stupid, 1

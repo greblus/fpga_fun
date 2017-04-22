@@ -1,0 +1,8 @@
+|table_
+o <= comb.DB_MAX_OUTPUT_PORT_TYPE
+x1 => comb.IN0
+x1 => comb.IN0
+x2 => comb.IN1
+x2 => comb.IN1
+
+

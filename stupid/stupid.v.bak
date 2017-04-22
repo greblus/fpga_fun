@@ -1,0 +1,2 @@
+module stupid (input x1, output o);
+endmodule
