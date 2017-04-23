@@ -29,7 +29,7 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "light")
-  (DATE "04/19/2017 22:10:37")
+  (DATE "04/23/2017 21:00:30")
   (VENDOR "Altera")
   (PROGRAM "Quartus II 64-Bit")
   (VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition")
@@ -38,7 +38,7 @@
 
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-    (INSTANCE \\f1\~output\\)
+    (INSTANCE \\f\[0\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (707:707:707) (629:629:629))
@@ -48,7 +48,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-    (INSTANCE \\f2\~output\\)
+    (INSTANCE \\f\[1\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (875:875:875) (785:785:785))
@@ -58,7 +58,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-    (INSTANCE \\f3\~output\\)
+    (INSTANCE \\f\[2\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (925:925:925) (830:830:830))
@@ -68,7 +68,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-    (INSTANCE \\f4\~output\\)
+    (INSTANCE \\f\[3\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (948:948:948) (842:842:842))
@@ -78,7 +78,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-    (INSTANCE \\f5\~output\\)
+    (INSTANCE \\f\[4\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (445:445:445) (489:489:489))
@@ -88,7 +88,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-    (INSTANCE \\f6\~output\\)
+    (INSTANCE \\f\[5\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (623:623:623) (676:676:676))
@@ -98,7 +98,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-    (INSTANCE \\f7\~output\\)
+    (INSTANCE \\f\[6\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (794:794:794) (870:870:870))
@@ -108,7 +108,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-    (INSTANCE \\f8\~output\\)
+    (INSTANCE \\f\[7\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (931:931:931) (1017:1017:1017))
@@ -118,7 +118,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_ibuf")
-    (INSTANCE \\x1\~input\\)
+    (INSTANCE \\x\[0\]\~input\\)
     (DELAY
       (ABSOLUTE
         (IOPATH i o (318:318:318) (698:698:698))
@@ -127,7 +127,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_ibuf")
-    (INSTANCE \\x2\~input\\)
+    (INSTANCE \\x\[1\]\~input\\)
     (DELAY
       (ABSOLUTE
         (IOPATH i o (318:318:318) (698:698:698))
@@ -136,7 +136,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_ibuf")
-    (INSTANCE \\x3\~input\\)
+    (INSTANCE \\x\[2\]\~input\\)
     (DELAY
       (ABSOLUTE
         (IOPATH i o (318:318:318) (698:698:698))
@@ -145,7 +145,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_ibuf")
-    (INSTANCE \\x4\~input\\)
+    (INSTANCE \\x\[3\]\~input\\)
     (DELAY
       (ABSOLUTE
         (IOPATH i o (318:318:318) (698:698:698))
@@ -154,7 +154,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_ibuf")
-    (INSTANCE \\x5\~input\\)
+    (INSTANCE \\x\[4\]\~input\\)
     (DELAY
       (ABSOLUTE
         (IOPATH i o (318:318:318) (698:698:698))

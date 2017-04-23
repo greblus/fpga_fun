@@ -1,5 +1,5 @@
 Analysis & Synthesis report for light
-Wed Apr 19 22:09:55 2017
+Sun Apr 23 20:59:45 2017
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -41,7 +41,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Apr 19 22:09:55 2017      ;
+; Analysis & Synthesis Status        ; Successful - Sun Apr 23 20:59:45 2017      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; light                                      ;
 ; Top-level Entity Name              ; light                                      ;
@@ -162,42 +162,42 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                       ;
-+----------------------------------+-----------------+------------------------+--------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path         ; Library ;
-+----------------------------------+-----------------+------------------------+--------------------------------------+---------+
-; light.v                          ; yes             ; User Verilog HDL File  ; /home/greblus/fpga_fun/light/light.v ;         ;
-+----------------------------------+-----------------+------------------------+--------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                        ;
++----------------------------------+-----------------+------------------------+---------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path          ; Library ;
++----------------------------------+-----------------+------------------------+---------------------------------------+---------+
+; light.v                          ; yes             ; User Verilog HDL File  ; /home/greblus/fpga_fun/light2/light.v ;         ;
++----------------------------------+-----------------+------------------------+---------------------------------------+---------+
 
 
-+--------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary            ;
-+---------------------------------------------+----------+
-; Resource                                    ; Usage    ;
-+---------------------------------------------+----------+
-;                                             ;          ;
-; Total combinational functions               ; 0        ;
-; Logic element usage by number of LUT inputs ;          ;
-;     -- 4 input functions                    ; 0        ;
-;     -- 3 input functions                    ; 0        ;
-;     -- <=2 input functions                  ; 0        ;
-;                                             ;          ;
-; Logic elements by mode                      ;          ;
-;     -- normal mode                          ; 0        ;
-;     -- arithmetic mode                      ; 0        ;
-;                                             ;          ;
-; Total registers                             ; 0        ;
-;     -- Dedicated logic registers            ; 0        ;
-;     -- I/O registers                        ; 0        ;
-;                                             ;          ;
-; I/O pins                                    ; 13       ;
-; Embedded Multiplier 9-bit elements          ; 0        ;
-; Maximum fan-out node                        ; x5~input ;
-; Maximum fan-out                             ; 4        ;
-; Total fan-out                               ; 21       ;
-; Average fan-out                             ; 0.81     ;
-+---------------------------------------------+----------+
++----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary              ;
++---------------------------------------------+------------+
+; Resource                                    ; Usage      ;
++---------------------------------------------+------------+
+;                                             ;            ;
+; Total combinational functions               ; 0          ;
+; Logic element usage by number of LUT inputs ;            ;
+;     -- 4 input functions                    ; 0          ;
+;     -- 3 input functions                    ; 0          ;
+;     -- <=2 input functions                  ; 0          ;
+;                                             ;            ;
+; Logic elements by mode                      ;            ;
+;     -- normal mode                          ; 0          ;
+;     -- arithmetic mode                      ; 0          ;
+;                                             ;            ;
+; Total registers                             ; 0          ;
+;     -- Dedicated logic registers            ; 0          ;
+;     -- I/O registers                        ; 0          ;
+;                                             ;            ;
+; I/O pins                                    ; 13         ;
+; Embedded Multiplier 9-bit elements          ; 0          ;
+; Maximum fan-out node                        ; x[4]~input ;
+; Maximum fan-out                             ; 4          ;
+; Total fan-out                               ; 21         ;
+; Average fan-out                             ; 0.81       ;
++---------------------------------------------+------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -240,7 +240,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Wed Apr 19 22:09:53 2017
+    Info: Processing started: Sun Apr 23 20:59:43 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off light -c light
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file light.v
@@ -252,8 +252,8 @@ Info (21057): Implemented 13 device resources after synthesis - the final resour
     Info (21058): Implemented 5 input pins
     Info (21059): Implemented 8 output pins
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 678 megabytes
-    Info: Processing ended: Wed Apr 19 22:09:55 2017
+    Info: Peak virtual memory: 677 megabytes
+    Info: Processing ended: Sun Apr 23 20:59:45 2017
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 

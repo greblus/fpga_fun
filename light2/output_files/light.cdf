@@ -3,8 +3,6 @@ JedecChain;
 	FileRevision(JESD32A);
 	DefaultMfr(6E);
 
-	P ActionCode(Cfg)
-		Device PartName(EP4CE6E22) Path("/home/greblus/fpga_fun/light/output_files/") File("light.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

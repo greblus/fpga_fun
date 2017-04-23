@@ -46,29 +46,35 @@ set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
-set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
-set_location_assignment PIN_91 -to x1
-set_location_assignment PIN_90 -to x2
 set_global_assignment -name ENABLE_SIGNALTAP OFF
 set_global_assignment -name USE_SIGNALTAP_FILE output_files/stp1.stp
-set_location_assignment PIN_135 -to f1
-set_location_assignment PIN_89 -to x3
-set_location_assignment PIN_88 -to x4
-set_location_assignment PIN_25 -to x5
-set_location_assignment PIN_136 -to f2
-set_location_assignment PIN_138 -to f3
-set_location_assignment PIN_142 -to f4
-set_location_assignment PIN_144 -to f5
-set_location_assignment PIN_2 -to f6
-set_location_assignment PIN_7 -to f7
-set_location_assignment PIN_11 -to f8
 set_global_assignment -name VERILOG_FILE light.v
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_91 -to x[0]
+set_location_assignment PIN_90 -to x[1]
+set_location_assignment PIN_89 -to x[2]
+set_location_assignment PIN_88 -to x[3]
+set_location_assignment PIN_25 -to x[4]
+set_location_assignment PIN_135 -to f[0]
+set_location_assignment PIN_136 -to f[1]
+set_location_assignment PIN_138 -to f[2]
+set_location_assignment PIN_142 -to f[3]
+set_location_assignment PIN_144 -to f[4]
+set_location_assignment PIN_2 -to f[5]
+set_location_assignment PIN_7 -to f[6]
+set_location_assignment PIN_11 -to f[7]
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name CYCLONEIII_CONFIGURATION_DEVICE EPCS4
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
