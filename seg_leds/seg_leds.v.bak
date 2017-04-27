@@ -1,0 +1,11 @@
+module seg_leds 
+ (
+	input key1,
+	output ledv,
+	output leda 
+ );
+ 
+	assign leda = 1'b1;
+	assign ledv = 'b1001111;
+ 
+ endmodule

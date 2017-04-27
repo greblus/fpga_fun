@@ -1,0 +1,36 @@
+|seg_leds
+key1 => ledv.OUTPUTSELECT
+key1 => ledv.OUTPUTSELECT
+key1 => ledv.OUTPUTSELECT
+key1 => ledv.OUTPUTSELECT
+key1 => ledv.OUTPUTSELECT
+key1 => ledv.OUTPUTSELECT
+key1 => ledv.OUTPUTSELECT
+key2 => ledv.OUTPUTSELECT
+key2 => ledv.OUTPUTSELECT
+key2 => ledv.OUTPUTSELECT
+key2 => ledv.OUTPUTSELECT
+key2 => ledv.OUTPUTSELECT
+key2 => ledv.DATAA
+key3 => ledv.OUTPUTSELECT
+key3 => ledv.OUTPUTSELECT
+key3 => ledv.OUTPUTSELECT
+key3 => ledv.OUTPUTSELECT
+key3 => ledv.DATAA
+key4 => ledv.OUTPUTSELECT
+key4 => ledv.OUTPUTSELECT
+key4 => ledv.OUTPUTSELECT
+key4 => ledv.DATAA
+key5 => ledv.DATAA
+key5 => ledv.DATAA
+key5 => ledv.DATAA
+led_out[0] <= ledv.DB_MAX_OUTPUT_PORT_TYPE
+led_out[1] <= ledv.DB_MAX_OUTPUT_PORT_TYPE
+led_out[2] <= ledv.DB_MAX_OUTPUT_PORT_TYPE
+led_out[3] <= ledv.DB_MAX_OUTPUT_PORT_TYPE
+led_out[4] <= ledv.DB_MAX_OUTPUT_PORT_TYPE
+led_out[5] <= ledv.DB_MAX_OUTPUT_PORT_TYPE
+led_out[6] <= ledv.DB_MAX_OUTPUT_PORT_TYPE
+led1_act <= <GND>
+
+
