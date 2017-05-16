@@ -1,0 +1,51 @@
+#! /usr/bin/vvp
+:ivl_version "11.0 (devel)" "(s20150603-469-g8a5cbd44)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "vhdl_textio";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x1901100 .scope module, "test" "test" 2 1;
+ .timescale 0 0;
+L_0x7f6c0f7eb0a8 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x18c5940_0 .net *"_s10", 0 0, L_0x7f6c0f7eb0a8;  1 drivers
+L_0x7f6c0f7eb0f0 .functor BUFT 1, C4<00000000000000000000000000000000>, C4<0>, C4<0>, C4<0>;
+v0x1920fe0_0 .net/2u *"_s12", 31 0, L_0x7f6c0f7eb0f0;  1 drivers
+L_0x7f6c0f7eb180 .functor BUFT 1, C4<00000000000000000000000011000000>, C4<0>, C4<0>, C4<0>;
+v0x19210c0_0 .net *"_s14", 31 0, L_0x7f6c0f7eb180;  1 drivers
+v0x19211b0_0 .net *"_s18", 31 0, L_0x1932160;  1 drivers
+L_0x7f6c0f7eb1c8 .functor BUFT 1, C4<00000000000000000000000011000000>, C4<0>, C4<0>, C4<0>;
+v0x1921290_0 .net *"_s20", 31 0, L_0x7f6c0f7eb1c8;  1 drivers
+v0x19213c0_0 .net *"_s24", 31 0, L_0x19322b0;  1 drivers
+v0x19214a0_0 .net *"_s26", 31 0, L_0x1932580;  1 drivers
+v0x1921580_0 .net *"_s28", 30 0, L_0x19323d0;  1 drivers
+L_0x7f6c0f7eb138 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x1921660_0 .net *"_s30", 0 0, L_0x7f6c0f7eb138;  1 drivers
+v0x19217d0_0 .net *"_s4", 7 0, L_0x1921d10;  1 drivers
+v0x19218b0_0 .net *"_s8", 6 0, L_0x1921ef0;  1 drivers
+L_0x7f6c0f7eb018 .functor BUFT 1, C4<11000000>, C4<0>, C4<0>, C4<0>;
+v0x1921990_0 .net "a", 7 0, L_0x7f6c0f7eb018;  1 drivers
+L_0x7f6c0f7eb060 .functor BUFT 1, C4<11000000>, C4<0>, C4<0>, C4<0>;
+v0x1921a70_0 .net "b", 7 0, L_0x7f6c0f7eb060;  1 drivers
+v0x1921b50_0 .net "sum1", 7 0, L_0x1921fe0;  1 drivers
+v0x1921c30_0 .net "sum2", 8 0, L_0x19326c0;  1 drivers
+L_0x1921d10 .arith/sum 8, L_0x7f6c0f7eb018, L_0x7f6c0f7eb060;
+L_0x1921ef0 .part L_0x1921d10, 1, 7;
+L_0x1921fe0 .concat [ 7 1 0 0], L_0x1921ef0, L_0x7f6c0f7eb0a8;
+L_0x1932160 .arith/sum 32, L_0x7f6c0f7eb0f0, L_0x7f6c0f7eb180;
+L_0x19322b0 .arith/sum 32, L_0x1932160, L_0x7f6c0f7eb1c8;
+L_0x19323d0 .part L_0x19322b0, 1, 31;
+L_0x1932580 .concat [ 31 1 0 0], L_0x19323d0, L_0x7f6c0f7eb138;
+L_0x19326c0 .part L_0x1932580, 0, 9;
+    .scope S_0x1901100;
+T_0 ;
+    %vpi_call 2 10 "$monitor", "sum1=%0b\012sum2=%0b", v0x1921b50_0, v0x1921c30_0 {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "test.v";
