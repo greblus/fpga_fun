@@ -1,0 +1,67 @@
+|light
+x1 => comb.IN0
+x1 => comb.IN0
+x2 => comb.IN1
+x2 => comb.IN1
+clk => clk.IN1
+f <= d_ff:ff.port2
+
+
+|light|d_ff:ff
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => counter[16].CLK
+clk => counter[17].CLK
+clk => counter[18].CLK
+clk => counter[19].CLK
+clk => counter[20].CLK
+clk => counter[21].CLK
+clk => counter[22].CLK
+clk => counter[23].CLK
+clk => counter[24].CLK
+clk => lck.CLK
+clk => state.CLK
+d => always0.IN1
+d => lck.OUTPUTSELECT
+d => counter[0].ENA
+d => counter[1].ENA
+d => counter[2].ENA
+d => counter[3].ENA
+d => counter[4].ENA
+d => counter[5].ENA
+d => counter[6].ENA
+d => counter[7].ENA
+d => counter[8].ENA
+d => counter[9].ENA
+d => counter[10].ENA
+d => counter[11].ENA
+d => counter[12].ENA
+d => counter[13].ENA
+d => counter[14].ENA
+d => counter[15].ENA
+d => counter[16].ENA
+d => counter[17].ENA
+d => counter[18].ENA
+d => counter[19].ENA
+d => counter[20].ENA
+d => counter[21].ENA
+d => counter[22].ENA
+d => counter[23].ENA
+d => counter[24].ENA
+q <= state.DB_MAX_OUTPUT_PORT_TYPE
+
+
