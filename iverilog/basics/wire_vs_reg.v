@@ -3,7 +3,7 @@
 //wire is used in assign
 //reg only in always block 
 
-module test();
+module test;
 		wire [7:0] w1 = 8'b00000000;
 		wire [7:0] w2 = 8'b10000000;
 		wire [8:0] sum1;
