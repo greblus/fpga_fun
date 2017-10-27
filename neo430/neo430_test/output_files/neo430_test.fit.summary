@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Oct 27 22:42:41 2017
+Quartus Prime Version : 17.0.1 Build 598 06/07/2017 SJ Lite Edition
+Revision Name : neo430_test
+Top-level Entity Name : neo430_test
+Family : Cyclone IV E
+Device : EP4CE6E22C8
+Timing Models : Final
+Total logic elements : 1,181 / 6,272 ( 19 % )
+    Total combinational functions : 1,046 / 6,272 ( 17 % )
+    Dedicated logic registers : 564 / 6,272 ( 9 % )
+Total registers : 564
+Total pins : 12 / 92 ( 13 % )
+Total virtual pins : 0
+Total memory bits : 73,984 / 276,480 ( 27 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

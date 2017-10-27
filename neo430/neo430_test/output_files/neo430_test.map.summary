@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Oct 27 22:42:16 2017
+Quartus Prime Version : 17.0.1 Build 598 06/07/2017 SJ Lite Edition
+Revision Name : neo430_test
+Top-level Entity Name : neo430_test
+Family : Cyclone IV E
+Total logic elements : 1,250
+    Total combinational functions : 1,044
+    Dedicated logic registers : 564
+Total registers : 564
+Total pins : 12
+Total virtual pins : 0
+Total memory bits : 73,984
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
